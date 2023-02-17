@@ -1,0 +1,25 @@
+.main {
+	text-align: center;
+	/*display: flex;*/
+}
+.item {
+	display: none;
+}
+.active .item {
+	display: block;
+}
+.link {
+	text-decoration: none;
+	color: yellowgreen;
+}
+.link:hover {
+	font-weight: bold;
+	color: greenyellow;
+}
+img {
+	width: 285px;
+}
+li {
+	list-style-type: none;
+}
+
